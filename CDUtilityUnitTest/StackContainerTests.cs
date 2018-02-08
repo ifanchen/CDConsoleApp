@@ -1,4 +1,9 @@
-﻿namespace CDUtilityUnitTest
+﻿// -----------------------------------------------------------------------
+// <copyright file="StackContainerTests.cs" company="-" >
+// Copyright © 2018
+// </copyright>
+// -----------------------------------------------------------------------
+namespace CDUtilityUnitTest
 {
     using System;
     using CDUtility;

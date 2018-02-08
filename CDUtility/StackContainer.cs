@@ -1,4 +1,9 @@
-﻿namespace CDUtility
+﻿// -----------------------------------------------------------------------
+// <copyright file="StackContainer.cs" company="-">
+// Copyright © 2018
+// </copyright>
+// -----------------------------------------------------------------------
+namespace CDUtility
 {
     using System;
     using System.Collections.Generic;
@@ -15,9 +20,12 @@
         /// </summary>
         private List<T> items;
 
+        /// <summary>
+        /// Initializes a new instance of the <see cref="StackContainer{T}"/> class.
+        /// </summary>        
         public StackContainer()
         {            
-            items = new List<T>();
+            this.items = new List<T>();
         }
 
         /// <summary>

@@ -1,7 +1,11 @@
-﻿namespace CDUtility
+﻿// -----------------------------------------------------------------------
+// <copyright file="StringUtility.cs" company="-">
+// Copyright © 2018
+// </copyright>
+// -----------------------------------------------------------------------
+namespace CDUtility
 {
-    using System;
-    using System.Collections.Generic;
+    using System;    
     using System.Linq;
     using System.Text;
 
@@ -46,7 +50,7 @@
             // Get distinct char for each input
             var distS1 = s1.Distinct().ToArray();
             var distS2 = s2.Distinct().ToArray();
-            char[] smallInput,b;
+            char[] smallInput, b;
             
             // Get the smaller input
             if (distS1.Count() <= distS2.Count())
@@ -61,8 +65,8 @@
             }
 
             StringBuilder result = new StringBuilder();
-            // Use smaller input for looping
-            for (int i=0; i< smallInput.Length; i++)
+            //// Use smaller input for looping
+            for (int i = 0; i < smallInput.Length; i++)
             {
                 if (b.Contains(smallInput[i]))
                 {

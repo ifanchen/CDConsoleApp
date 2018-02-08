@@ -1,4 +1,9 @@
-﻿namespace CDUtilityUnitTest
+﻿// -----------------------------------------------------------------------
+// <copyright file="StringUtilityTests.cs" company="-">
+// Copyright © 2018
+// </copyright>
+// -----------------------------------------------------------------------
+namespace CDUtilityUnitTest
 {
     using CDUtility;
     using Microsoft.VisualStudio.TestTools.UnitTesting;
